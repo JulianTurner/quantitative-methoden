@@ -23,14 +23,27 @@
 		"r.plot.useHttpgd": true,
 		"[r]": {
 			"editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
-		}
+		},
+		"workbench.colorTheme": "GitHub Dark",
+		"files.autoSave": "onFocusChange",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"workbench.iconTheme": "material-icon-theme",
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	// For example, if you want to use vscode-jupyter, add "ms-toolsai.jupyter".
 	"extensions": [
 		"ikuyadeu.r",
-		"rdebugger.r-debugger"
+		"rdebugger.r-debugger",
+		"github.github-vscode-theme",
+		"pkief.material-icon-theme",
+		"visualstudioexptteam.vscodeintellicode",
+		"mhutchie.git-graph",
+		"yzhang.markdown-all-in-one",
+		"mhutchie.git-graph",
+		"github.copilot"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
